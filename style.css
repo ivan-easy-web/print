@@ -4,9 +4,23 @@ body {
 
 @media print {
 	body {
-        min-width: none;
-        zoom: 60%;
+        zoom: 0.85;
+        min-width: 0px !important;
     }
+
+    .sp {
+        width: auto !important;
+    }
+
+    .backed {
+        background-color: #BCBCBC !important;
+        -webkit-print-color-adjust: exact; 
+    }
+    
+}
+
+@page {
+    margin: 0 !important;
 }
 
 .row {
