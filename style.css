@@ -4,15 +4,16 @@ body {
 
 @media print {
 	body {
-        zoom: 0.80;
+        zoom: 0.55;
         min-width: 0px !important;
+        font-size: large;
     }
 
     .sp {
         width: auto !important;
     }
 
-    .backed {
+    .backed, .sss {
         background-color: #BCBCBC !important;
         -webkit-print-color-adjust: exact; 
     }
