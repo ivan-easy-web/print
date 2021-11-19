@@ -1,23 +1,25 @@
 body {
     min-width: 1600px;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media print {
 	body {
-        zoom: 0.55;
+        zoom: 0.6;
         min-width: 0px !important;
-        font-size: large;
-    }
-
-    .sp {
-        width: auto !important;
     }
 
     .backed, .sss {
         background-color: #BCBCBC !important;
         -webkit-print-color-adjust: exact; 
     }
-    
+
+    .row {
+        height: 100px !important;
+    }
+    td {
+        min-width: 0px;
+    }
 }
 
 @page {
@@ -89,7 +91,6 @@ table {
 }
 
 td {
-    min-width: 50px;
 
     border: 1px dotted #2778F3;
 }
@@ -126,4 +127,13 @@ td {
 .tr-small td {
     line-height: 25px;
     height: 25px;
+}
+
+.hh {
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.italic {
+    font-style: italic;
 }

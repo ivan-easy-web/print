@@ -4,7 +4,9 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 
@@ -27,14 +29,14 @@
     <div class="main" style="margin-top: 15px;">
         <div>
             <div class="line">
-                <p class="backed" style="width: fit-content;">
+                <p class="backed hh" style="width: fit-content;">
                     Отправитель
                 </p>
-                <p style="border-top: 1px dotted #2778F3; border-bottom: 1px dotted #2778F3;">
+                <p class="italic" style="border-top: 1px dotted #2778F3; border-bottom: 1px dotted #2778F3;">
                     Название фирмы
                 </p>
             </div>
-            <div class="line" style="border-bottom: 1px dotted #2778F3;">
+            <div class="line italic" style="border-bottom: 1px dotted #2778F3;">
                 <p>
                     Ф.И.О.
                 </p>
@@ -42,7 +44,7 @@
                     Телефон
                 </p>
             </div>
-            <div class="line">
+            <div class="line italic">
                 <p>
                     Область
                 </p>
@@ -54,22 +56,22 @@
 
             <table>
                 <tr>
-                    <td class="backed sp" style="width: 100%; border: none;">Инофрмация о грузе</td>
+                    <td class="backed sp hh" style="width: 100%; border: none;">Инофрмация о грузе</td>
                     <td colspan="4" style="border: 1px dotted #2778F3; border-left: none;">Вес: 1кг</td>
                 </tr>
-                <tr class="solid-border">
+                <tr class="solid-border italic" style="font-weight: bold;">
                     <td>Наименование</td>
-                    <td>Стоимость</td>
-                    <td>Кол-во</td>
-                    <td>Страховка</td>
-                    <td>+</td>
+                    <td style="padding: 0; text-align: center; min-width: 90px;">Стоимость</td>
+                    <td style="padding: 0; text-align: center; min-width: 60px">Кол-во</td>
+                    <td style="padding: 0; text-align: center;">Страховка</td>
+                    <td style="padding: 0; text-align: center;">+</td>
                 </tr>
-                <tr class="tr-small">
+                <tr class="tr-small italic" >
                     <td>Фен-расческа</td>
-                    <td>450000</td>
-                    <td>1</td>
-                    <td>+</td>
-                    <td></td>
+                    <td style="text-align: center;">450 000</td>
+                    <td style="text-align: center;">1</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
                 </tr>
                 <tr class="tr-small">
                     <td></td>
@@ -109,15 +111,16 @@
             </table>
 
             <div class="line" style="justify-content: space-between; align-items: center; height: fit-content;">
-                <p>Итого</p>
+                <p style="font-size: large; font-weight: bold; text-transform:  uppercase;">Итого</p>
                 <div class="line" style="align-items: center;">
-                    <p style="min-width: 90px;">450 сум</p>
+                    <p style="min-width: 100px; font-size: large; font-weight: bold;">450 сум</p>
                     <p style="
+                        font-style: italic;
                         align-self: flex-end; 
                         font-size: x-small; 
                         line-height: 20px; 
                         height: 20px; 
-                        min-width: 130px; 
+                        min-width: 140px; 
                         border-top: 1px solid black;
                         margin-top: 41px;"
                     >(подпись Получателя)</p>
@@ -126,39 +129,39 @@
 
             <div class="line sss" style="justify-content: space-between; background-color: #BCBCBC; color: white;">
                 <div class="check">
-                    <p>Не вскрывать</p>
+                    <p class=" hh">Не вскрывать</p>
                     <div class="sq"></div>
                 </div>
                 <div class="check">
-                    <p>Не вскрывать</p>
+                    <p class=" hh">Примерка</p>
                     <div class="sq"></div>
                 </div>
                 <div class="check">
-                    <p>Не вскрывать</p>
+                    <p class=" hh">Замена</p>
                     <div class="sq"></div>
                 </div>
             </div>
 
             <div class="line" style="margin-top: 15px;">
-                <p class="backed" style="text-align: center;">
+                <p class="backed hh" style="text-align: center;">
                     Контрагент
                 </p>
             </div>
-            <div class="line" style="border-bottom: 1px dotted #2778F3;">
+            <div class="line" style="border-bottom: 1px dotted #2778F3; font-size: large; font-weight: bold; text-transform:  uppercase;">
                 <p style="text-align: center; border-right: 1px dotted #2778F3;">Active Express</p>
                 <p style="text-align: center;">01302223344553</p>
             </div>
             <div class="line" style="align-items: center;">
-                <p style="height: auto; line-height: unset;">
+                <p style="height: auto; line-height: unset; font-size: small; font-style: italic;">
                     Подписывая Накладную, Отправитель соглашается с условиями
                     “Greysis Fulfillment”, а также гарантирует, что Отправка не содержит
                     запрещенных предметов
                 </p>
-                <p class="img-w-wrapper" style="height: auto; line-height: unset;">
+                <p class="img-w-wrapper" style="height: auto; line-height: unset; width: 50%;">
                     <img src="img/barcode2.png">
                 </p>
             </div>
-            <div class="line" style="border-top: 1px dotted #2778F3; border-bottom: 1px dotted #2778F3;">
+            <div class="line italic" style="border-top: 1px dotted #2778F3; border-bottom: 1px dotted #2778F3;">
                 <p style=" border-right: 1px dotted #2778F3;">Дата</p>
                 <p>Подпись Отправителя</p>
             </div>
@@ -169,14 +172,14 @@
 
         <div>
             <div class="line">
-                <p class="backed" style="width: fit-content;">
+                <p class="backed hh" style="width: fit-content;">
                     Получатель
                 </p>
                 <p style="border-top: 1px dotted #2778F3; border-bottom: 1px dotted #2778F3;">
                     
                 </p>
             </div>
-            <div class="line" style="border-bottom: 1px dotted #2778F3;">
+            <div class="line italic" style="border-bottom: 1px dotted #2778F3;">
                 <p>
                     Ф.И.О.
                 </p>
@@ -184,7 +187,7 @@
                     Телефон
                 </p>
             </div>
-            <div class="line" style="border-bottom: 1px dotted #2778F3;">
+            <div class="line italic" style="border-bottom: 1px dotted #2778F3;">
                 <p>
                     Область
                 </p>
@@ -192,7 +195,7 @@
                     Город/Район
                 </p>
             </div>
-            <div class="line">
+            <div class="line italic">
                 <p>
                     Адрес
                 </p>
@@ -200,7 +203,7 @@
 
 
             <div class="line">
-                <p class="backed" style="text-align: center; line-height: 33px; height: 33px; margin-top: 2px;">
+                <p class="backed hh" style="text-align: center; line-height: 33px; height: 33px; margin-top: 2px;">
                     Информация об оплате
                 </p>
             </div>
@@ -209,27 +212,27 @@
                 <div>
                     <table>
                         <tr class="solid-border">
-                            <td colspan="3">Оплачено</td>
+                            <td colspan="3" style="font-size: large; font-weight: bold; text-transform:  uppercase;">Оплачено</td>
                         </tr>
-                        <tr class="solid-border">
-                            <td>Наименование услуг</td>
-                            <td>Кол-во</td>
-                            <td>Стоимость</td>
+                        <tr class="solid-border italic" style="font-weight: bold;">
+                            <td style="padding: 0; text-align: center; width: 100%;">Наименование услуг</td>
+                            <td style="padding: 0; text-align: center; min-width: 60px">Кол-во</td>
+                            <td style="padding: 0; text-align: center; min-width: 90px;">Стоимость</td>
                         </tr>
-                        <tr class="tr-small">
+                        <tr class="tr-small italic">
                             <td>Вызов курьера г. Ташкент</td>
-                            <td>1</td>
-                            <td>10000</td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: center;">10 000</td>
                         </tr>
-                        <tr class="tr-small">
+                        <tr class="tr-small italic">
                             <td>Доставка до офиса г. Самарканд</td>
-                            <td>2 кг</td>
-                            <td>15000</td>
+                            <td style="text-align: center;">2 кг</td>
+                            <td style="text-align: center;">15 000</td>
                         </tr>
-                        <tr class="tr-small">
+                        <tr class="tr-small italic">
                             <td>Доставка от офиса до двери</td>
-                            <td>1</td>
-                            <td>10000</td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: center;">10 000</td>
                         </tr>
                         <tr class="tr-small">
                             <td></td>
@@ -244,17 +247,17 @@
                     </table>
                     <table style="margin-top: 15px;">
                         <tr class="solid-border">
-                            <td colspan="3">Не оплачено</td>
+                            <td colspan="3" style="font-size: large; font-weight: bold; text-transform:  uppercase;">Не оплачено</td>
                         </tr>
-                        <tr class="solid-border">
-                            <td>Наименование услуг</td>
-                            <td>Кол-во</td>
-                            <td>Стоимость</td>
+                        <tr class="solid-border italic" style="font-weight: bold;">
+                            <td style="padding: 0; text-align: center; width: 100%;">Наименование услуг</td>
+                            <td style="padding: 0; text-align: center; min-width: 60px">Кол-во</td>
+                            <td style="padding: 0; text-align: center; min-width: 90px;">Стоимость</td>
                         </tr>
-                        <tr class="tr-small">
+                        <tr class="tr-small italic">
                             <td>Наложный платеж</td>
-                            <td>1</td>
-                            <td>450000</td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: center;">450 000</td>
                         </tr>
                         <tr class="tr-small">
                             <td></td>
@@ -285,19 +288,19 @@
             </div>
 
             <div class="line" style="justify-content: space-between;">
-                <p style="width: fit-content;">Итого</p>
-                <p style="width: fit-content;">450 сум</p>
+                <p style="width: fit-content; font-size: large; font-weight: bold; text-transform:  uppercase;">Итого</p>
+                <p style="width: fit-content; font-size: large; font-weight: bold;">10 000 000 сум</p>
             </div>
 
             <div class="line">
-                <p class="backed" style="text-align: center;">
+                <p class="backed hh" style="text-align: center;">
                     Подтверждение доставки
                 </p>
             </div>
             <div class="line">
-                <p style="height: auto; min-height: 30px; line-height: 30px;">Отправление доставлено полностью, упаковка не повреждена, не нарушена. Претензий не имею.</p>
+                <p style="height: auto; min-height: 30px; line-height: 30px; height: auto; font-size: small; font-style: italic;">Отправление доставлено полностью, упаковка не повреждена, не нарушена. Претензий не имею.</p>
             </div>
-            <div class="line" style="border-top: 1px dotted #2778F3; border-bottom: 1px dotted #2778F3;">
+            <div class="line italic" style="border-top: 1px dotted #2778F3; border-bottom: 1px dotted #2778F3;">
                 <p style="border-right: 1px dotted #2778F3;">Дата</p>
                 <p>Подпись Получателя</p>
             </div>
