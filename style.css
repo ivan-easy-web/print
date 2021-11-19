@@ -20,6 +20,13 @@ body {
     td {
         min-width: 0px;
     }
+    .bigger {
+        height: 43px !important;
+    }
+
+    .bgm {
+        margin-top: 3px;
+    }
 }
 
 @page {
@@ -136,4 +143,8 @@ td {
 
 .italic {
     font-style: italic;
+}
+
+.bigger {
+    height: 36px;
 }
