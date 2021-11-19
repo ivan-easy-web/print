@@ -123,11 +123,11 @@ td {
 }
 
 .row1 div:first-child {
-    width: 70%;
+    width: 75%;
 }
 
 .row1 div:nth-child(2) {
-    width: 30%;
+    width: 25%;
 }
 
 
@@ -139,6 +139,7 @@ td {
 .hh {
     font-size: large;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .italic {
