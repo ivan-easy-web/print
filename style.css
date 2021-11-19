@@ -148,3 +148,7 @@ td {
 .bigger {
     height: 36px;
 }
+
+.lgf {
+    font-size: larger;
+}
