@@ -7,6 +7,7 @@ body {
 	body {
         zoom: 0.6;
         min-width: 0px !important;
+        margin: 1cm !important;
     }
 
     .backed, .sss {
@@ -21,16 +22,19 @@ body {
         min-width: 0px;
     }
     .bigger {
-        height: 43px !important;
+        height: 44px !important;
     }
 
     .bgm {
         margin-top: 3px;
     }
+    .bgmm {
+        margin-top: 3px;
+    }
 }
 
 @page {
-    margin: 0.5cm;
+    margin: 0.5cm !important;
 }
 
 .row {
