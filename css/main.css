@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    color: #000000;
+}
+
+p {
+    line-height: 1.2;
+    margin: 0;
+}
+
+.container {
+    max-width: 3510px;
+    margin: 0 auto;
+    padding: 30px 50px 0 50px;
+}
+
+.row-one {
+    align-items: center;
+}
+
+.text {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.9vw;
+}
+
+.medium-text {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.36vw;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.block {
+    background: #BCBCBC;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.logo-block img {
+    max-width: 52%;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-row-icon img {
+    max-width: 6vw;
+}
+
+.header-row-text {
+    margin-left: 6%;
+}
+
+.title {
+    font-size: 1.79vw;
+    font-weight: 700;
+}
+
+.header-code {
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.header-code-icon img {
+    max-width: 20vw;
+}
+
+.date {
+    color: #BCBCBC;
+    margin-bottom: 20px;
+}
+
+
+.content-block {
+    position: relative;
+    z-index: 2;
+}
+
+.content-block-item {
+    border-top: 3px dashed #2778F3;
+    display: flex;
+    align-items: center;
+    height: 2.7301vw;
+    margin-top: -2px;
+
+}
+
+.border-right {
+    border-right: 3px dashed #2778F3 !important;
+}
+
+.content-block-item.btn-block {
+    margin-top: 0;
+}
+
+.content-btn {
+    background: #BCBCBC !important;
+    -webkit-print-color-adjust: exact;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.6vw;
+    display: inline-flex;
+    padding: 0.23vw 0.59vw;
+    text-transform: uppercase;
+    margin-top: -3px;
+}
+
+.content-text {
+    margin-left: 10px;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    margin-top: -3px;
+    flex-wrap: wrap;
+}
+
+.table-item.first {
+    min-width: 66.6%;
+}
+
+.table-item.second {
+    width: 12%;
+}
+
+.table-item.third {
+    width: 7%;
+}
+
+.table-item.fourth {
+    width: 10%;
+}
+
+.table-item.fiveth {
+    width: 4.4%;
+}
+
+.text-number {
+    margin: 0 1.27vw;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+}
+
+.table-title {
+    height: 2.57vw;
+    border: 3px solid #2778F3;
+    border-left: none;
+    display: flex;
+    align-items: center;
+}
+
+.table-title.first {
+    border-left: 3px solid #2778F3;
+    padding-left: 1.27vw;
+}
+
+.table .text {
+    font-size: 0.8vw;
+}
+
+.table-col {
+    border-right: 3px dashed #2778F3;
+    border-bottom: 3px dashed #2778F3;
+    height: 2.1vw;
+    display: flex;
+    align-items: center;
+}
+
+.table-col.last {
+    border-right: none !important;
+}
+
+.table-col.first {
+    padding-left: 1.27vw;
+}
+
+.table-col img {
+    width: 1.425vw;
+    height: 1.425vw;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results-flex {
+    display: flex;
+    align-items: flex-end;
+}
+
+.result-flex-item:last-child {
+    margin-left: auto;
+}
+
+.res-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+.res-padding{
+    padding-left: 1.27vw;
+}
+.signature{
+    text-decoration: overline;
+    line-height: 1;
+    font-size: 0.7vw;
+}
+
+.checkbox{
+    background: #BCBCBC;
+    -webkit-print-color-adjust: exact;
+    justify-content: space-around;
+    padding: 0.55vw 2.2vw;
+    margin-top: 12px;
+}
+.checkbox-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox-text{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+}
+.checkbox-block-check{
+    background: #FFFFFF;
+    -webkit-print-color-adjust: exact;
+    width: 1.9vw;
+    height: 1.9vw;
+    margin-left: 1vw;
+}
+
+
+
+
+
+
+
+@media print {
+    .content-block-item {
+        border-width: 1px;
+        margin-top: -1px;
+    }
+
+    .content-btn {
+        margin-top: -1px
+    }
+
+    .border-right {
+        border-right: 1px dashed #2778F3 !important;
+    }
+
+    .table {
+        margin-top: -1px
+    }
+
+    .table-title,
+    .border-right,
+    .table-col {
+        border-width: 1px !important;
+    }
+    .checkbox-text{
+        top: 2.1px;
+    }
+}
+
+@page {
+    margin: 0mm 0mm 0mm 0mm;
+}
